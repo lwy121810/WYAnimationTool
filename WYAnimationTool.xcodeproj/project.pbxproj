@@ -15,6 +15,13 @@
 		94520DA81D4B96A20081D9DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94520DA61D4B96A20081D9DA /* LaunchScreen.storyboard */; };
 		94520DB31D4B96A20081D9DA /* WYAnimationToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94520DB21D4B96A20081D9DA /* WYAnimationToolTests.m */; };
 		94520DBE1D4B96A20081D9DA /* WYAnimationToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94520DBD1D4B96A20081D9DA /* WYAnimationToolUITests.m */; };
+		94520DD31D4B96C90081D9DA /* WYTool_AnimationTransitionCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 94520DCD1D4B96C90081D9DA /* WYTool_AnimationTransitionCustom.m */; };
+		94520DD41D4B96C90081D9DA /* UIButton+WYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 94520DD01D4B96C90081D9DA /* UIButton+WYCategory.m */; };
+		94520DD51D4B96C90081D9DA /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 94520DD21D4B96C90081D9DA /* UIView+Extension.m */; };
+		94520DD81D4B96D70081D9DA /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94520DD71D4B96D70081D9DA /* TwoViewController.m */; };
+		94520DDB1D4B96DF0081D9DA /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94520DD91D4B96DF0081D9DA /* 1.jpg */; };
+		94520DDC1D4B96DF0081D9DA /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 94520DDA1D4B96DF0081D9DA /* 2.jpeg */; };
+		94520DDE1D4B99FD0081D9DA /* animationGIF.gif in Resources */ = {isa = PBXBuildFile; fileRef = 94520DDD1D4B99FD0081D9DA /* animationGIF.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,17 @@
 		94520DB91D4B96A20081D9DA /* WYAnimationToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYAnimationToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94520DBD1D4B96A20081D9DA /* WYAnimationToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAnimationToolUITests.m; sourceTree = "<group>"; };
 		94520DBF1D4B96A20081D9DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94520DCC1D4B96C90081D9DA /* WYTool_AnimationTransitionCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTool_AnimationTransitionCustom.h; sourceTree = "<group>"; };
+		94520DCD1D4B96C90081D9DA /* WYTool_AnimationTransitionCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTool_AnimationTransitionCustom.m; sourceTree = "<group>"; };
+		94520DCF1D4B96C90081D9DA /* UIButton+WYCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WYCategory.h"; sourceTree = "<group>"; };
+		94520DD01D4B96C90081D9DA /* UIButton+WYCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WYCategory.m"; sourceTree = "<group>"; };
+		94520DD11D4B96C90081D9DA /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		94520DD21D4B96C90081D9DA /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		94520DD61D4B96D70081D9DA /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		94520DD71D4B96D70081D9DA /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		94520DD91D4B96DF0081D9DA /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		94520DDA1D4B96DF0081D9DA /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+		94520DDD1D4B99FD0081D9DA /* animationGIF.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animationGIF.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +119,17 @@
 		94520D971D4B96A20081D9DA /* WYAnimationTool */ = {
 			isa = PBXGroup;
 			children = (
+				94520DDD1D4B99FD0081D9DA /* animationGIF.gif */,
+				94520DCB1D4B96C90081D9DA /* WYAnimationTool */,
+				94520DCE1D4B96C90081D9DA /* WYCategory */,
 				94520D9B1D4B96A20081D9DA /* AppDelegate.h */,
 				94520D9C1D4B96A20081D9DA /* AppDelegate.m */,
+				94520DD91D4B96DF0081D9DA /* 1.jpg */,
+				94520DDA1D4B96DF0081D9DA /* 2.jpeg */,
 				94520D9E1D4B96A20081D9DA /* ViewController.h */,
 				94520D9F1D4B96A20081D9DA /* ViewController.m */,
+				94520DD61D4B96D70081D9DA /* TwoViewController.h */,
+				94520DD71D4B96D70081D9DA /* TwoViewController.m */,
 				94520DA11D4B96A20081D9DA /* Main.storyboard */,
 				94520DA41D4B96A20081D9DA /* Assets.xcassets */,
 				94520DA61D4B96A20081D9DA /* LaunchScreen.storyboard */,
@@ -138,6 +163,26 @@
 				94520DBF1D4B96A20081D9DA /* Info.plist */,
 			);
 			path = WYAnimationToolUITests;
+			sourceTree = "<group>";
+		};
+		94520DCB1D4B96C90081D9DA /* WYAnimationTool */ = {
+			isa = PBXGroup;
+			children = (
+				94520DCC1D4B96C90081D9DA /* WYTool_AnimationTransitionCustom.h */,
+				94520DCD1D4B96C90081D9DA /* WYTool_AnimationTransitionCustom.m */,
+			);
+			path = WYAnimationTool;
+			sourceTree = "<group>";
+		};
+		94520DCE1D4B96C90081D9DA /* WYCategory */ = {
+			isa = PBXGroup;
+			children = (
+				94520DCF1D4B96C90081D9DA /* UIButton+WYCategory.h */,
+				94520DD01D4B96C90081D9DA /* UIButton+WYCategory.m */,
+				94520DD11D4B96C90081D9DA /* UIView+Extension.h */,
+				94520DD21D4B96C90081D9DA /* UIView+Extension.m */,
+			);
+			path = WYCategory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +288,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94520DDC1D4B96DF0081D9DA /* 2.jpeg in Resources */,
 				94520DA81D4B96A20081D9DA /* LaunchScreen.storyboard in Resources */,
+				94520DDB1D4B96DF0081D9DA /* 1.jpg in Resources */,
 				94520DA51D4B96A20081D9DA /* Assets.xcassets in Resources */,
+				94520DDE1D4B99FD0081D9DA /* animationGIF.gif in Resources */,
 				94520DA31D4B96A20081D9DA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,8 +318,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94520DD81D4B96D70081D9DA /* TwoViewController.m in Sources */,
+				94520DD51D4B96C90081D9DA /* UIView+Extension.m in Sources */,
+				94520DD31D4B96C90081D9DA /* WYTool_AnimationTransitionCustom.m in Sources */,
 				94520DA01D4B96A20081D9DA /* ViewController.m in Sources */,
 				94520D9D1D4B96A20081D9DA /* AppDelegate.m in Sources */,
+				94520DD41D4B96C90081D9DA /* UIButton+WYCategory.m in Sources */,
 				94520D9A1D4B96A20081D9DA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
